@@ -1,4 +1,4 @@
-
+[![Build Status](https://travis-ci.org/jailucloz/egc20S01-1.svg?branch=master)](https://travis-ci.org/jailucloz/egc20S01-1)
 
 Plataforma voto electrónico educativa
 =====================================
