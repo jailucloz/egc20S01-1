@@ -16,3 +16,10 @@ install:
 script:
   - cd decide
   - python manage.py test
+
+notifications:
+  email:
+    recipients:
+     - jailucloz@alum.us.es
+    on_success: always # default: change
+    on_failure: never # default: always
