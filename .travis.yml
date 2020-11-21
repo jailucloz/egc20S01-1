@@ -15,7 +15,10 @@ install:
   - pip install -r requirements.txt
 script:
   - cd decide
-  - python manage.py test
+  - coverage run --branch --source=. ./manage.py test --keepdb --with-xunit
+  - coverage xml
+  - python-codacy-coverage -r coverage.xml
+  - cosa
 
 notifications:
   email:
